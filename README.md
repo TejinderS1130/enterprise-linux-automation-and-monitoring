@@ -23,13 +23,17 @@ The goal is to demonstrate how automation improves:
 
 ---
 
-## 📊 System Monitoring
+## System Monitoring
 
-<img src="screenshots/01_system_monitoring_cpu_memory%20Small.jpeg" width="900">
-<p><em>System resource visibility</em></p>
+<p align="center">
+  <img src="screenshots/01_system_monitoring_cpu_memory.png" width="900">
+</p>
+<p align="center"><em>System resource visibility</em></p>
 
-<img src="screenshots/02_system_monitoring_disk_usage%20Small.jpeg" width="900">
-<p><em>Disk usage monitoring</em></p>
+<p align="center">
+  <img src="screenshots/02_system_monitoring_disk_usage.png" width="900">
+</p>
+<p align="center"><em>Disk usage monitoring</em></p>
 
 ---
 
@@ -53,11 +57,35 @@ This toolkit supports SOC operations by automating these foundational tasks.
 * Check availability of remote servers
 * Detect downtime or unreachable hosts
 
-<img src="screenshots/18_ping_success_check%20Small.jpeg" width="900">
-<p><em>Normal connectivity</em></p>
+<p align="center">
+  <img src="screenshots/19_ping_script_creation.png" width="900">
+</p>
+<p align="center"><em>Ping script creation</em></p>
 
-<img src="screenshots/19_ping_failure_detection%20Small.jpeg" width="900">
-<p><em>Detection of unreachable system</em></p>
+<p align="center">
+  <img src="screenshots/20_ping_script_code_v1.png" width="900">
+</p>
+<p align="center"><em>Initial script logic</em></p>
+
+<p align="center">
+  <img src="screenshots/21_ping_script_execution_output.png" width="900">
+</p>
+<p align="center"><em>Execution showing connectivity results</em></p>
+
+<p align="center">
+  <img src="screenshots/22_ping_script_code_v2.png" width="900">
+</p>
+<p align="center"><em>Optimized script</em></p>
+
+<p align="center">
+  <img src="screenshots/23_ping_result_output.png" width="900">
+</p>
+<p align="center"><em>Connectivity output</em></p>
+
+<p align="center">
+  <img src="screenshots/24_remote_connectivity_test_output.png" width="900">
+</p>
+<p align="center"><em>Remote connectivity validation</em></p>
 
 ---
 
@@ -66,17 +94,25 @@ This toolkit supports SOC operations by automating these foundational tasks.
 * Delete files older than 90 days
 * Prevent disk space exhaustion
 
-<img src="screenshots/30_old_files_before_cleanup%20Small.jpeg" width="900">
-<p><em>Problem: old files consuming space</em></p>
+<p align="center">
+  <img src="screenshots/30_old_files_before_cleanup.png" width="900">
+</p>
+<p align="center"><em>Problem: old files consuming space</em></p>
 
-<img src="screenshots/34_old_files_verification_before_deletion%20Small.jpeg" width="900">
-<p><em>Verification before deletion</em></p>
+<p align="center">
+  <img src="screenshots/34_old_files_verification_before_deletion.png" width="900">
+</p>
+<p align="center"><em>Verification before deletion</em></p>
 
-<img src="screenshots/35_deleteold_script_deletion_logic%20Small.jpeg" width="900">
-<p><em>Cleanup logic</em></p>
+<p align="center">
+  <img src="screenshots/35_deleteold_script_deletion_logic.png" width="900">
+</p>
+<p align="center"><em>Cleanup logic</em></p>
 
-<img src="screenshots/36_cleanup_script_execution_and_result%20Small.jpeg" width="900">
-<p><em>Execution and resolution</em></p>
+<p align="center">
+  <img src="screenshots/36_cleanup_script_execution_and_result.png" width="900">
+</p>
+<p align="center"><em>Execution and resolution</em></p>
 
 ---
 
@@ -85,14 +121,20 @@ This toolkit supports SOC operations by automating these foundational tasks.
 * Backup `/etc` and `/var` directories
 * Timestamped archive creation
 
-<img src="screenshots/40_backup_script_creation%20Small.jpeg" width="900">
-<p><em>Backup script</em></p>
+<p align="center">
+  <img src="screenshots/40_backup_script_creation.png" width="900">
+</p>
+<p align="center"><em>Backup script</em></p>
 
-<img src="screenshots/41_backup_tar_command_execution%20Small.jpeg" width="900">
-<p><em>Backup execution</em></p>
+<p align="center">
+  <img src="screenshots/41_backup_tar_command_execution.png" width="900">
+</p>
+<p align="center"><em>Backup execution</em></p>
 
-<img src="screenshots/42_backup_files_generated%20Small.jpeg" width="900">
-<p><em>Backup files created</em></p>
+<p align="center">
+  <img src="screenshots/42_backup_files_generated.png" width="900">
+</p>
+<p align="center"><em>Backup files created</em></p>
 
 ---
 
@@ -100,11 +142,15 @@ This toolkit supports SOC operations by automating these foundational tasks.
 
 * Automate execution using cron jobs
 
-<img src="screenshots/26_cron_job_configuration%20Small.jpeg" width="900">
-<p><em>Cron job configuration</em></p>
+<p align="center">
+  <img src="screenshots/26_cron_job_configuration.png" width="900">
+</p>
+<p align="center"><em>Cron job configuration</em></p>
 
-<img src="screenshots/28_cron_job_execution%20Small.jpeg" width="900">
-<p><em>Automated execution</em></p>
+<p align="center">
+  <img src="screenshots/28_cron_job_execution.png" width="900">
+</p>
+<p align="center"><em>Automated execution</em></p>
 
 ---
 
@@ -112,8 +158,10 @@ This toolkit supports SOC operations by automating these foundational tasks.
 
 * Send alerts for failures or status updates
 
-<img src="screenshots/29_email_notification_alert%20Small.jpeg" width="900">
-<p><em>Email alert system</em></p>
+<p align="center">
+  <img src="screenshots/29_email_notification_alert.png" width="900">
+</p>
+<p align="center"><em>Email alert system</em></p>
 
 ---
 
@@ -123,17 +171,25 @@ This toolkit supports SOC operations by automating these foundational tasks.
 * Rename files
 * Modify permissions
 
-<img src="screenshots/52_multiple_files_output%20Small.jpeg" width="900">
-<p><em>Automated file creation</em></p>
+<p align="center">
+  <img src="screenshots/52_multiple_files_output.png" width="900">
+</p>
+<p align="center"><em>Automated file creation</em></p>
 
-<img src="screenshots/37_file_rename_script_creation%20Small.jpeg" width="900">
-<p><em>Rename script</em></p>
+<p align="center">
+  <img src="screenshots/37_file_rename_script_creation.png" width="900">
+</p>
+<p align="center"><em>Rename script</em></p>
 
-<img src="screenshots/39_renamed_files_output%20Small.jpeg" width="900">
-<p><em>Rename result</em></p>
+<p align="center">
+  <img src="screenshots/39_renamed_files_output.png" width="900">
+</p>
+<p align="center"><em>Rename result</em></p>
 
-<img src="screenshots/56_permission_verification_output%20Small.jpeg" width="900">
-<p><em>Permission validation</em></p>
+<p align="center">
+  <img src="screenshots/56_permission_verification_output.png" width="900">
+</p>
+<p align="center"><em>Permission validation</em></p>
 
 ---
 
@@ -194,11 +250,15 @@ Runs backup daily at 2 AM
 
 ## 🔎 Validation
 
-<img src="screenshots/62_file_existence_check_output%20Small.jpeg" width="900">
-<p><em>File existence validation</em></p>
+<p align="center">
+  <img src="screenshots/62_file_existence_check_output.png" width="900">
+</p>
+<p align="center"><em>File existence validation</em></p>
 
-<img src="screenshots/63_remote_file_existence_check%20Small.jpeg" width="900">
-<p><em>Remote file validation</em></p>
+<p align="center">
+  <img src="screenshots/63_remote_file_existence_check.png" width="900">
+</p>
+<p align="center"><em>Remote file validation</em></p>
 
 ---
 
